@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var nilai = 10
+	var nilai = 11
 
 	switch nilai {
 	case 10:

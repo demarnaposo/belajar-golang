@@ -7,8 +7,8 @@ import (
 
 var pesan = make(chan string)
 
-func main() 
-{
+func main() {
+
 	runtime.GOMAXPROCS(2)
 
 	go hello("a")
